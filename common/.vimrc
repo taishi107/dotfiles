@@ -74,10 +74,8 @@ autocmd FileType python setl autoindent
 autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd FileType python setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
-
 "ファイルをtree表示してくれる"
 "execute pathogen#infect()
-
 
 "-------------------------------"
 "自動的に閉じ括弧を入力
