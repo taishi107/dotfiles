@@ -1,0 +1,34 @@
+{
+  "latex-workshop.latex.recipes": [
+    {
+        "name": "latexmk",
+        "tools": [
+            "latexmk",
+            "latexmk_clean"
+        ]
+    }
+],
+"latex-workshop.latex.tools": [
+    {
+        "name": "latexmk",
+        "command": "latexmk",
+        "args": [
+            "%DOC%"
+        ]
+    },
+    {
+        "name": "latexmk_clean",
+        "command": "latexmk",
+        "args": [
+            "-c"
+        ]
+    }
+  ],
+    "window.zoomLevel": 0,
+    "python.jediEnabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoBuild.interval": 10000,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.configureOnOpen": false,
+}
