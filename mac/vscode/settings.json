@@ -31,4 +31,6 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "cmake.configureOnOpen": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula Soft",
 }
